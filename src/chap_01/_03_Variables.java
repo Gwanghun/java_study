@@ -19,5 +19,10 @@ public class _03_Variables {
         boolean pass = true;
         System.out.println("이번 시험에 합격 했을가요? " + pass);
 
+        float f = 3.14F;    // F 를 적적어줘야 float 형 사용 가능
+
+        long l = 1_000_000_000_000L;    // L 를 적어줘야 한다
+        System.out.println(l);
+
     }
 }
