@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c54e66dd-479c-427c-9b11-e5092027e3f6" name="변경" comment="연산자, 비교연산자, 삼항연산자 등 강의&#10;알고 있는 부분이라 빠르게 진행함.&#10;예제 추가 안함.">
-      <change afterPath="$PROJECT_DIR$/src/chap_03/_03_StringCompare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap_03/_04_EscaoeSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap_04/_01_If.java" afterDir="false" />
+    <list default="true" id="c54e66dd-479c-427c-9b11-e5092027e3f6" name="변경" comment="문자열비교, if, switch 등">
+      <change afterPath="$PROJECT_DIR$/src/chap_04/_05_For.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap_04/_06_While.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap_04/_07_DoWhile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap_04/_08_NestedLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap_04/_09_MultipleTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap_04/_10_Break.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,20 +41,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "extract.method.default.visibility": "private",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="Application._09_MultipleTable">
     <configuration name="_03_StringCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap_03._03_StringCompare" />
       <module name="javaWorkspace" />
@@ -66,8 +69,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_08_NestedLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap_04._08_NestedLoop" />
+      <module name="javaWorkspace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap_04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_09_MultipleTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap_04._09_MultipleTable" />
+      <module name="javaWorkspace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap_04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._09_MultipleTable" />
+        <item itemvalue="Application._08_NestedLoop" />
         <item itemvalue="Application._03_StringCompare" />
       </list>
     </recent_temporary>
@@ -83,7 +114,8 @@
       <workItem from="1673362950188" duration="374000" />
       <workItem from="1673363337892" duration="1556000" />
       <workItem from="1673392820916" duration="3571000" />
-      <workItem from="1673998775279" duration="2055000" />
+      <workItem from="1673998775279" duration="2115000" />
+      <workItem from="1674084575869" duration="1887000" />
     </task>
     <task id="LOCAL-00001" summary="연산자, 비교연산자, 삼항연산자 등 강의&#10;알고 있는 부분이라 빠르게 진행함.&#10;예제 추가 안함.">
       <created>1673396379774</created>
@@ -92,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673396379774</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="문자열비교, if, switch 등">
+      <created>1674000886079</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674000886079</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +139,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="연산자, 비교연산자, 삼항연산자 등 강의&#10;알고 있는 부분이라 빠르게 진행함.&#10;예제 추가 안함." />
-    <option name="LAST_COMMIT_MESSAGE" value="연산자, 비교연산자, 삼항연산자 등 강의&#10;알고 있는 부분이라 빠르게 진행함.&#10;예제 추가 안함." />
+    <MESSAGE value="문자열비교, if, switch 등" />
+    <option name="LAST_COMMIT_MESSAGE" value="문자열비교, if, switch 등" />
   </component>
 </project>
